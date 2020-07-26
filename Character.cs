@@ -33,7 +33,7 @@ public class Character : MonoBehaviour
         {
             int Exptemp = Exp;
             Exp += value;
-            if(Exp >= 100) //ควรเพิ่มตัวแปรกำหนด Level อีกที
+            if(Exp >= 110) //ควรเพิ่มตัวแปรกำหนด Level อีกที
             {
                 Exp = 0;
                 Level++;
